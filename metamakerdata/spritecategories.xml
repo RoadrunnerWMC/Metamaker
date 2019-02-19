@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<views>
+    <view name="Sorted By Number">
+        <category name="0-9"><attach sprite="0-9" /></category>
+        <category name="10-19"><attach sprite="10-19" /></category>
+        <category name="20-29"><attach sprite="20-29" /></category>
+        <category name="30-39"><attach sprite="30-39" /></category>
+        <category name="40-49"><attach sprite="40-49" /></category>
+        <category name="50-59"><attach sprite="50-59" /></category>
+        <category name="60-69"><attach sprite="60-69" /></category>
+    </view>
+    <view name="Sorted By Row">
+        <category name="Row 1">
+            <attach sprite="4" />
+            <attach sprite="5" />
+            <attach sprite="6" />
+            <attach sprite="7" />
+            <attach sprite="9" />
+            <attach sprite="20" />
+            <attach sprite="8" />
+            <attach sprite="10" />
+            <attach sprite="0" />
+            <attach sprite="1" />
+            <attach sprite="2" />
+            <!-- Wing is not a sprite -->
+        </category>
+        <category name="Row 2">
+            <!-- ? Mushroom is not a sprite (?) -->
+            <attach sprite="30" />
+            <attach sprite="25" />
+            <attach sprite="11" />
+            <attach sprite="34" />
+            <attach sprite="35" />
+            <attach sprite="33" />
+            <attach sprite="13" />
+            <attach sprite="48" />
+            <attach sprite="56" />
+            <attach sprite="43" />
+            <attach sprite="16" />
+        </category>
+        <category name="Row 3">
+            <attach sprite="3" />
+            <attach sprite="28" />
+            <attach sprite="12" />
+            <attach sprite="60" />
+            <attach sprite="62" />
+            <attach sprite="23" />
+            <attach sprite="36" />
+            <attach sprite="24" />
+            <attach sprite="58" />
+            <attach sprite="15" />
+            <attach sprite="21" />
+            <attach sprite="19" />
+        </category>
+        <category name="Row 4">
+            <attach sprite="22" />
+            <attach sprite="54" />
+            <attach sprite="47" />
+            <attach sprite="17" />
+            <attach sprite="40" />
+            <attach sprite="41" />
+            <attach sprite="46" />
+            <attach sprite="39" />
+            <attach sprite="29" />
+            <attach sprite="64" />
+            <attach sprite="18" />
+            <attach sprite="55" />
+        </category>
+        <category name="Row 5">
+            <attach sprite="57" />
+            <attach sprite="52" />
+            <!-- Yoshi is not a sprite -->
+            <attach sprite="42" />
+            <attach sprite="14" />
+            <attach sprite="66" />
+            <attach sprite="59" />
+            <attach sprite="53" />
+            <attach sprite="68" />
+            <attach sprite="61" />
+            <attach sprite="63" />
+            <attach sprite="67" />
+        </category>
+        <category name="Unlisted">
+            <attach sprite="26" />
+            <attach sprite="27" />
+            <attach sprite="31" />
+            <attach sprite="32" />
+            <attach sprite="37" />
+            <attach sprite="38" />
+            <attach sprite="44" />
+            <attach sprite="45" />
+            <attach sprite="49" />
+            <attach sprite="50" />
+            <attach sprite="51" />
+            <attach sprite="65" />
+        </category>
+    </view>
+</views>

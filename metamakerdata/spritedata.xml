@@ -1,0 +1,630 @@
+<?xml version="1.0"?>
+<sprites>
+    <sprite id="0" name="Goomba">
+        <checkbox nybble="1" title="Jump and face right upon load" />
+        <checkbox nybble="2" mask="8" title="Shot to the right upon load" />
+        <list nybble="4" title="In Lakitu cloud and invisible in Edit mode">
+            <entry value="0">No</entry>
+            <entry value="1">Yes</entry>
+            <entry value="2">Yes</entry>
+            <entry value="3">Yes</entry>
+            <entry value="4">No</entry>
+            <entry value="5">Yes</entry>
+            <entry value="6">Yes</entry>
+            <entry value="7">Yes</entry>
+            <entry value="8">No</entry>
+            <entry value="9">Yes</entry>
+            <entry value="10">Yes</entry>
+            <entry value="11">Yes</entry>
+            <entry value="12">No</entry>
+            <entry value="13">Yes</entry>
+            <entry value="14">Yes</entry>
+            <entry value="15">Yes</entry>
+        </list>
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+        <checkbox nybble="6" mask="2" title="In clown car and invisible in Edit mode" />
+        <checkbox nybble="6" mask="4" title="On layer 0" />
+        <list nybble="7" title="Rotation">
+            <entry value="0">On left wall, facing up</entry>
+            <entry value="1">On left wall, facing up</entry>
+            <entry value="2">On right wall, facing down</entry>
+            <entry value="3">On right wall, facing down</entry>
+            <entry value="4">Facing left</entry>
+            <entry value="5">Facing left</entry>
+            <entry value="6">On ceiling, facing right</entry>
+            <entry value="7">On ceiling, facing right</entry>
+            <entry value="8">On left wall, facing up</entry>
+            <entry value="9">On left wall, facing up</entry>
+            <entry value="10">On right wall, facing down</entry>
+            <entry value="11">On right wall, facing down</entry>
+            <entry value="12">Facing left</entry>
+            <entry value="13">Facing left</entry>
+            <entry value="14">On ceiling, facing right</entry>
+            <entry value="15">On ceiling, facing right</entry>
+        </list>
+        <checkbox nybble="8" title="Coming-out-of-a-pipe animation" />
+        <checkbox nybble="8" mask="2" title="Winged" />
+    </sprite>
+    <sprite id="1" name="Koopa Troopa">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+        <checkbox nybble="8" mask="4" title="Red" />
+    </sprite>
+    <sprite id="2" name="Piranha Plant">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+        <checkbox nybble="8" mask="4" title="Fire Piranha Plant" />
+    </sprite>
+    <sprite id="3" name="Hammer Bro.">
+        <checkbox nybble="8" mask="4" title="Giant?" />
+    </sprite>
+    <sprite id="4" name="Brick Block">
+    </sprite>
+    <sprite id="5" name="? Block">
+    </sprite>
+    <sprite id="6" name="Wooden Block">
+    </sprite>
+    <sprite id="7" name="Ground Tile">
+    </sprite>
+    <sprite id="8" name="Coin">
+    </sprite>
+    <sprite id="9" name="Pipe">
+    </sprite>
+    <sprite id="10" name="Trampoline">
+        <checkbox nybble="8" mask="4" title="Sideways?" />
+    </sprite>
+    <sprite id="11" name="Platform">
+        <checkbox nybble="8" mask="4" title="Falling?" />
+    </sprite>
+    <sprite id="12" name="Thwomp">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="13" name="Bullet Bill Launcher">
+        <list nybble="5" title="Size" comment="Collisions and projectiles are unchanged for some sizes (which?), so use with caution.">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="14" name="Mushroom Platform">
+    </sprite>
+    <sprite id="15" name="Bob-omb">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="16" name="Tree Platform">
+    </sprite>
+    <sprite id="17" name="Bridge">
+    </sprite>
+    <sprite id="18" name="P Switch">
+    </sprite>
+    <sprite id="19" name="POW Block">
+    </sprite>
+    <sprite id="20" name="Mushroom">
+    </sprite>
+    <sprite id="21" name="Donut Lift">
+    </sprite>
+    <sprite id="22" name="Cloud Block">
+    </sprite>
+    <sprite id="23" name="Note Block">
+    </sprite>
+    <sprite id="24" name="Fire Bar">
+    </sprite>
+    <sprite id="25" name="Spiny">
+    </sprite>
+    <sprite id="26" name="Goal Pole Ground">
+    </sprite>
+    <sprite id="27" name="Goal Pole">
+    </sprite>
+    <sprite id="28" name="Buzzy Beetle">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="29" name="Invisible Block">
+    </sprite>
+    <sprite id="30" name="Lakitu">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="31" name="Rideable Cloud">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="32" name="Vine Block">
+    </sprite>
+    <sprite id="33" name="1-UP">
+    </sprite>
+    <sprite id="34" name="Fire Flower">
+    </sprite>
+    <sprite id="35" name="Super Star">
+    </sprite>
+    <sprite id="36" name="Bone Platform">
+    </sprite>
+    <sprite id="37" name="Start Point Ground">
+    </sprite>
+    <sprite id="38" name="Start Point Signboard">
+    </sprite>
+    <sprite id="39" name="Magikoopa">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="40" name="Spike Top">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+        <checkbox nybble="8" mask="4" title="Yellow?" />
+    </sprite>
+    <sprite id="41" name="Boo">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+        <checkbox nybble="6" title="&quot;Necchi&quot;" />
+        <checkbox nybble="8" mask="4" title="Circling Boo Buddies?" />
+    </sprite>
+    <sprite id="42" name="Clown Car">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="43" name="Spike Block">
+    </sprite>
+    <sprite id="44" name="Skinny Mushroom">
+    </sprite>
+    <sprite id="45" name="Shoe Goomba / Yoshi Egg">
+        <list nybble="5" title="Size" comment="For some sizes (which?), the sprite switches back to 100% upon level launch.">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+        <checkbox nybble="8" mask="4" title="High-heeled (when Shoe Goomba)" />
+    </sprite>
+    <sprite id="46" name="Dry Bones">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="47" name="Bullet Bill Cannon">
+        <list nybble="5" title="Size" comment="Collisions and projectiles are unchanged for some sizes (which?), so use with caution.">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+        <checkbox nybble="8" mask="4" title="Fires Missile Bills?" />
+    </sprite>
+    <sprite id="48" name="Blooper">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="49" name="Castle Bridge">
+    </sprite>
+    <sprite id="50" name="? Mushroom (1/2 tile too high)">
+    </sprite>
+    <sprite id="51" name="Giant Mushroom">
+    </sprite>
+    <sprite id="52" name="Wiggler">
+        <list nybble="5" title="Size" comment="The body pieces switch back to 100% upon level launch for some sizes (which?), but the head does not; this can make a very weird-looking Wiggler.">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="53" name="Conveyor Belt">
+    </sprite>
+    <sprite id="54" name="Burner">
+    </sprite>
+    <sprite id="55" name="Door">
+    </sprite>
+    <sprite id="56" name="Cheep Cheep">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+        <checkbox nybble="8" mask="2" title="Red" />
+    </sprite>
+    <sprite id="57" name="Muncher">
+        <list nybble="5" title="Size" comment="Collisions are unchanged for some sizes (which?), so use with caution.">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="58" name="Monty Mole / Rocky Wrench / Wrench">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+        <checkbox nybble="8" mask="4" title="&quot;Choropoo&quot; (vs &quot;Poo&quot;)?" />
+    </sprite>
+    <sprite id="59" name="Track/Rail/Line Piece">
+    </sprite>
+    <sprite id="60" name="Podoboo">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="61" name="Chain Chomp">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+    </sprite>
+    <sprite id="62" name="Bowser / Bowser Jr.">
+        <list nybble="5" title="Size">
+            <entry value="0">100%</entry>
+            <entry value="1">100%</entry>
+            <entry value="2">150%</entry>
+            <entry value="3">150%</entry>
+            <entry value="4">200%</entry>
+            <entry value="5">200%</entry>
+            <entry value="6">300%</entry>
+            <entry value="7">300%</entry>
+            <entry value="8">100%</entry>
+            <entry value="9">100%</entry>
+            <entry value="10">150%</entry>
+            <entry value="11">150%</entry>
+            <entry value="12">200%</entry>
+            <entry value="13">200%</entry>
+            <entry value="14">300%</entry>
+            <entry value="15">300%</entry>
+        </list>
+        <checkbox nybble="8" mask="4" title="Bowser Jr.?" />
+    </sprite>
+    <sprite id="63" name="Ice Block">
+    </sprite>
+    <sprite id="64" name="Vine">
+    </sprite>
+    <sprite id="65" name="? Mushroom / Tanooki Leaf / Propeller Suit">
+    </sprite>
+    <sprite id="66" name="Arrow Sign / Checkpoint Flag (v1.20+)">
+    </sprite>
+    <sprite id="67" name="One-Way Wall">
+    </sprite>
+    <sprite id="68" name="Grinder">
+    </sprite>
+    <sprite id="69" name="Mario">
+    </sprite>
+</sprites>

@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<courses>
+    <category name="Meta">
+        <course file="new_course_data" name="Blank Course" />
+        <course file="tutorial_course_data_00" name="Opening Tutorial" />
+        <course file="title_course_data_plain" name="Title Screen Overworld Course" />
+        <course file="title_course_data_underground" name="Title Screen Underground Course" />
+        <course file="title_course_data_water" name="Title Screen Underwater Course" />
+        <course file="title_course_data_hauntedhouse" name="Title Screen Haunted House Course" />
+        <course file="title_course_data_airship" name="Title Screen Airship Course" />
+        <course file="title_course_data_castle" name="Title Screen Castle Course" />
+    </category>
+    <category name="World 1">
+        <course file="tutorial_course_data_01" name="Ground" />
+        <course file="tutorial_course_data_02" name="Underwater" />
+        <course file="tutorial_course_data_03" name="Castle" />
+        <course file="tutorial_course_data_04" name="Airship" />
+    </category>
+    <category name="World 2">
+        <course file="tutorial_course_data_05" name="Ghost House" />
+        <course file="tutorial_course_data_06" name="Sound Effects" />
+        <course file="tutorial_course_data_07" name="Tracks" />
+        <course file="tutorial_course_data_08" name="Sub Areas" />
+    </category>
+    <category name="World 3">
+        <course file="sample_course_data_51" name="Pipeline to the Other Side" />
+        <course file="sample_course_data_01" name="Block Town" />
+        <course file="sample_course_data_82" name="1-1 Remix (Ground)" />
+        <course file="sample_course_data_30" name="Spinning Boo Buddies!" />
+    </category>
+    <category name="World 4">
+        <course file="sample_course_data_33" name="A P Switch's Journey" />
+        <course file="sample_course_data_88" name="Switch it Up!" />
+        <course file="sample_course_data_97" name="1-1 Remix (Raccoon Mario)" />
+        <course file="sample_course_data_98" name="1-4 Remix (Castle)" />
+    </category>
+    <category name="World 5">
+        <course file="sample_course_data_39" name="Bloomin' Goombas!" />
+        <course file="sample_course_data_49" name="Perilous Vine Climb" />
+        <course file="sample_course_data_95" name="1-2 Remix (Underground)" />
+        <course file="sample_course_data_84" name="Big Dry Bones' Pirate Ship" />
+    </category>
+    <category name="World 6">
+        <course file="sample_course_data_28" name="Sunken Mario" />
+        <course file="sample_course_data_11" name="Coinucopia" />
+        <course file="sample_course_data_72" name="1-3 Remix (Athletic)" />
+        <course file="sample_course_data_63" name="Festival of Fire" />
+    </category>
+    <category name="World 7">
+        <course file="sample_course_data_56" name="Super Star Dash" />
+        <course file="sample_course_data_62" name="Ka-POW!!!" />
+        <course file="sample_course_data_52" name="Be Brave &amp; Get Up Close!" />
+        <course file="sample_course_data_29" name="Attack Stack" />
+    </category>
+    <category name="World 8">
+        <course file="sample_course_data_96" name="5-3 Remix (Shoe Goombas)" />
+        <course file="sample_course_data_99" name="1-2 Remix (Yoshi)" />
+        <course file="sample_course_data_36" name="Zigzag Lava Bubbles" />
+        <course file="sample_course_data_66" name="Go for the 3-Up Stomp!" />
+    </category>
+    <category name="World 9">
+        <course file="sample_course_data_38" name="Jump for It!" />
+        <course file="sample_course_data_19" name="Muncher" />
+        <course file="sample_course_data_47" name="Clowning Around" />
+        <course file="sample_course_data_65" name="Creepy-Crawly Bowser Tower" />
+    </category>
+    <category name="World 10">
+        <course file="sample_course_data_68" name="3-1 Remix (Infinite 1-Ups)" />
+        <course file="sample_course_data_75" name="2-3 Remix (Pyramids)" />
+        <course file="sample_course_data_50" name="Bowser Retreats, Mario Advances" />
+        <course file="sample_course_data_48" name="Easy Does It..." />
+    </category>
+    <category name="World 11">
+        <course file="sample_course_data_15" name="Music Notes" />
+        <course file="sample_course_data_42" name="Conveyor Belt Sprint" />
+        <course file="sample_course_data_58" name="Shell Shot!" />
+        <course file="sample_course_data_31" name="Find the Fire Flower!" />
+    </category>
+    <category name="World 12">
+        <course file="sample_course_data_03" name="Shoe Factory" />
+        <course file="sample_course_data_32" name="Spiny Tower Demolition" />
+        <course file="sample_course_data_77" name="7-2 Remix (Piranha Plants)" />
+        <course file="sample_course_data_93" name="1-Airship Remix" />
+    </category>
+    <category name="World 13">
+        <course file="sample_course_data_92" name="8-B Remix (Airship)" />
+        <course file="sample_course_data_41" name="Danger: Fire Bars!" />
+        <course file="sample_course_data_37" name="Blaster Barrage" />
+        <course file="sample_course_data_55" name="Dry Bones Stampede" />
+    </category>
+    <category name="World 14">
+        <course file="sample_course_data_10" name="Chain Chomp" />
+        <course file="sample_course_data_02" name="Bone Dungeon" />
+        <course file="sample_course_data_80" name="Underwater Automation" />
+        <course file="sample_course_data_21" name="Up &amp; Over" />
+    </category>
+    <category name="World 15">
+        <course file="sample_course_data_35" name="Even Trampolines Dream of Flying" />
+        <course file="sample_course_data_90" name="Rollercoaster" />
+        <course file="sample_course_data_74" name="2-5 Remix (Chain Chomps)" />
+        <course file="sample_course_data_71" name="8-3 Remix (Hammer Bros.)" />
+    </category>
+    <category name="World 16">
+        <course file="sample_course_data_79" name="6-3 Remix (Ice)" />
+        <course file="sample_course_data_24" name="Don't Delay!" />
+        <course file="sample_course_data_57" name="Race to the Finish!" />
+        <course file="sample_course_data_69" name="8-4 Remix (Castle Labyrinth)" />
+    </category>
+    <category name="World 17">
+        <course file="sample_course_data_08" name="NWC 2015-1" />
+        <course file="sample_course_data_09" name="NWC 2015-2" />
+        <course file="sample_course_data_12" name="NWC 2015-3" />
+        <course file="sample_course_data_14" name="NWC 2015-4" />
+    </category>
+</courses>

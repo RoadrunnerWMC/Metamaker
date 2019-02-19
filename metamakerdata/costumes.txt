@@ -1,0 +1,99 @@
+"Mario"
+Peach
+Luigi
+Bowser
+Goomba
+? Block
+Toad
+Silver Mario
+Gold Mario
+Trampoline
+Wario
+Sidestepper
+"MarioOriginal"
+"Heiho"
+Rosalina & Luma
+"Yoshi"
+Bowser Jr.
+Dr. Mario
+Kart Mario
+Light-Blue Yarn Yoshi
+Green Yarn Yoshi
+Pink Yarn Yoshi
+Mega Yarn Yoshi
+Kirby
+King Dedede
+Meta Knight
+Pit
+Palutena
+Dark Pit
+Mega Man
+Samus
+Zero Suit Samus
+R.O.B
+Marth
+Ike
+Lucina
+Robin
+Pikachu
+Lucario
+Charizard
+Greninja
+"Pudding"
+Mewtwo
+"Orima"
+Pikmin
+Link
+Zelda
+Ganondorf
+Sheik
+Tingle
+Toon Link
+Shulk
+Ness
+Lucas
+Inkling Squid
+Inkling Boy
+Inkling Girl
+"Fit"
+Chibi-Robo
+"Murabito"
+"Tanuki"
+"Sizue"
+"Kento"
+"Kaizo"
+"Lisa"
+"Kinuyo"
+"Totakeke"
+"SizueWinter"
+"Fuko"
+"Futa"
+"ResetSan"
+"Shunk"
+"TsubuMame"
+"Kappei"
+"MishiNeko"
+"Takumi"
+Captain Falcon
+Mr. Game & Watch
+Sonic
+Donkey Kong
+Diddy Kong
+DuckHunt
+PAC-MAN
+"Blackey"
+Fox McCloud
+Little Mac
+Falco Lombardi
+Slippy Toad
+Peppy Hare
+Arwing
+"DiyMario"
+Donkey Kong Jr.
+Shellcreeper
+Waluigi
+"Wiibo"
+Mahjong Tile
+"MrHakari"
+Ashley
+Nikki

@@ -1,0 +1,71 @@
+# List compiled by UltraMario
+Goomba (SMB, SMB3, NSMBU) / Galoomba (SMW)
+Koopa Troopa [The voice says the same name for both Green and Red ones]
+Piranha Plant (SMB, SMB3, NSMBU) / Jumping Piranha Plant (SMW)/ Fire Piranha Plant (shaken)
+Hammer Bro / Sledge Bro [give a Hammer Bro a Super Mushroom]
+Block (SMB, SMB3, NSMBU) / Rotating Block (SMW) [The voice doesn't actually call it this in-game, but since it's not the same as a regular block, I gave it its SMW name]
+? Block
+Hard Block
+Ground
+Coin
+Pipe
+Trampoline [The voice says the same name for Horizonal and Vertical Trampolines]
+Lift / Trembling Lift (shaken)
+Thwomp
+Cannon [The voice says the same for the black and red ones]
+Mushroom Platform [The voice says the same for all 3 Mushroom Platforms]
+Bob-omb [The voice says the same for both normal and lit Bob-ombs]
+Semi-solid Platform [The voice says the same for all 3 Semi-solid Platforms]
+Bridge
+P Switch
+POW Block
+Super Mushroom / Weird Mushroom (shaken, SMB)
+Donut Block
+Cloud Block
+Note Block / Music Block (shaken) [The voice doesn't call out a name. Instead, a sound that changes depending on the height of the block plays. They are however referred to as Music Blocks here: https://youtu.be/_9W_y8IlNro?t=2m49s]
+Fire Bar
+Spiny / Spiny Shell Helmet (shaken) [These don't actually have a name, the voice just calls it the same thing as Spiny] / Spiny Egg (Underwater) [These don't actually have a name, the voice just calls it the same thing as Spiny]
+Goal Ground
+Gole Pole (SMB, NSMBU) / Goal (SMB3) / Giant Gate (SMW)
+Buzzy Beetle / Beetle Shell Helmet (shaken) [These don't actually have a name, the voice just calls it the same thing as Spiny]
+Hidden Block
+Lakitu
+Lakitu's Cloud [shakeable for Lakitu]
+Vine Block (Unused; unknown)
+1-Up Mushroom
+Fire Flower
+Super Star
+Lava Lift [The voice says the same name for both slow and fast ones]
+Start Ground
+Start Sign
+Magikoopa
+Spike Top [The voice says the same name for both red and blue ones]
+Boo / Stretch [when you place a boo on a surface. The voice doesn't actually call it this in-game, but since it's not the same as a regular Boo, I gave it its SMB3 name] / Boo Buddies (shaken)
+Koopa Clown Car (SMB, SMB3, SMW) / Fire Koopa Clown Car (SMB, SMB3, SMW) (shaken) / Junior Clown Car (NSMBU) / Fire Junior Clown Car (NSMBU) (shaken)
+Spike Trap (SMB, SMB3, SMW, NSMBU) / Jelectro (SMB3 Underwater) / Sea Urchin (SMW Underwater)
+Weird Mushroom [shakeable for Super Mushroom]
+Shoe Goomba (SMB, SMB3) / Stiletto Goomba (shaken) (SMB, SMB3) / Yoshi Egg (SMW, NSMBU)
+Dry Bones / Fish Bone (Underwater) [The voice doesn't actually call it this in-game, but since it's not the same as enemy as Dry Bones, I gave it its SMW name]
+Bill Blaster / Bull's-Eye Bill Blaster (shaken) [The voice doesn't actually call it this in-game, but since it's not the same as a regular Blaster, I named it this since the bills it shoots are Bull's-Eye Bils.]
+Blooper / Blooper Nanny (shaken) [The voice doesn't actually call it this in-game, but since it's not the same as a regular Blooper, I called it this since that's what they're called in NSMBU.]
+Castle Bridge
+Mystery Mushroom (1/2 tile too high)
+Big Mushroom
+Wiggler [the voice says the same for both normal and angry Wigglers]
+Conveyor Belt [The voice says the same for both slow and fast ones]
+Burner [The voice says the same for both normal and delayed ones]
+Warp Door / P Warp Door (shaken)
+Cheep Cheep (SMB and SMB3) / Blurp (SMW) /Deep Cheep (NSMBU) / [The voice doesn't call the ones in the SMW and NSMBU styles Blurp and Deep Cheep, but that's what they're called in SMW and NSMBU. The voice says the same for Red and Green]
+Muncher
+Rocky Wrench / Monty Mole (shaken)
+Track
+Lava Bubble
+Chain Chomp / Unchained Chomp (shaken) ([he voice doesn't actually call it this in-game, but an in-game message does]
+Bowser / Bowser Jr. (shaken)
+Ice Block
+Vine
+Mystery Mushroom (SMB) / Super Leaf (SMB3) / Cape Feather (SMW) / Propeller Mushroom (NSMBU)
+Arrow Sign [Or is it Air Sign?] / Checkpoint Flag (shaken)
+One-way Wall
+Grinder / Bumper (shaken)
+Mario / Super Mario (shaken) / Weird Mario [Mario + Weird Mushroom] / Fire Mario [Mario + Fire Flower] / Raccoon Mario [Mario + Super Leaf] / Cape Mario [Mario + Cape Feather] / Propeller Mario [Mario + Propeller Mushroom]
