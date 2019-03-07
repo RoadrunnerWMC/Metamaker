@@ -2,8 +2,6 @@
 
 Metamaker is a highly unfinished editor for Super Mario Maker course files (.cdt), based on Reggie Next M2A4, an editor for New Super Mario Bros. Wii and New Super Mario Bros. 2 level files. I made this around three years ago and never finished it, but I've gotten some requests for it since then, so I'm uploading it largely as-is. There's a lot of leftover debugging material and missing / probably broken functionality... alas.
 
-This editor has the capability to display textures for the ground and for certain sprites; however, for legal reasons, I had to remove its original texture rendering code. Implement the `renderFtex()` function in metamaker.py if you want to enable this functionality.
-
 The original Reggie Next M2A4 readme follows below.
 
 ----------------------------------------------------------------

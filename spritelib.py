@@ -4,7 +4,7 @@
 # Metamaker - A low-level Super Mario Maker course editor
 # Version 0.1.0
 # Copyright (C) 2009-2019 Treeki, Tempus, angelsl, JasonP27, Kamek64,
-# MalStar1000, RoadrunnerWMC
+# MalStar1000, RoadrunnerWMC, AboodXD
 
 # This file is part of Metamaker.
 

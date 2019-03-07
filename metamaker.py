@@ -4,7 +4,7 @@
 # Metamaker - A low-level Super Mario Maker course editor
 # Version 0.1.0
 # Copyright (C) 2009-2019 Treeki, Tempus, angelsl, JasonP27, Kamek64,
-# MalStar1000, RoadrunnerWMC
+# MalStar1000, RoadrunnerWMC, AboodXD
 
 # This file is part of Metamaker.
 
@@ -57,6 +57,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 Qt = QtCore.Qt
 
 # Local imports
+import bfres as BFRES
 from i18n import _
 HAS_MIDO = True
 try:
@@ -781,8 +782,7 @@ class AssetsClass:
         File extensions must not be included, since they can vary
         depending on various things.
         None is a perfectly possible return value (if the user doesn't
-        choose a Model folder and doesn't have the proper FTEX-rendering
-        libraries installed, for example, *any* call to this will result
+        choose a Model folder, for example, *any* call to this will result
         in None), so make sure to account for that when indexing the
         AssetsClass instance!
         """
@@ -890,44 +890,11 @@ class AssetsClass:
         Load a [Yaz0 -> ] SARC -> BFRES, and store its FTEX's into self.ftexCache
         """
         print('        loadBfresIntoCache(%s, %s...)' % (prefix, repr(bfresData[:8])))
-        assert bfresData[:4] == b'FRES'
+        textures = BFRES.read(bfresData)
+        for name, tex in textures:
+            self.ftexCacheRaw[prefix + '/' + name] = tex
 
-        # Now we need to find the FTEX's through string search (bad, I know)
-        print('            Beginning FTEX string search.')
-        off = 0
-        while b'FTEX' in bfresData[off + 1:]:
-            print('                Found one?: ' + hex(off))
-            off += bfresData[off + 1:].index(b'FTEX') + 1
-            assert bfresData[off : off + 4] == b'FTEX'
-            print('                Yes!')
-
-            # This basic FTEX parsing algorithm is based on code from Wii U FMDL Parser.
-            # Thanks to Kinnay for his Python-based tool!
-            # https://github.com/Kinnay/Wii-U-FMDL-Parser
-
-            ftexHeader = bfresData[off : off + 0xC0]
-
-            # Get the FTEX name
-            ftexNamePos = off + 0xA8 + struct.unpack_from('>I', bfresData, off + 0xA8)[0]
-            ftexNameLen = struct.unpack_from('>I', bfresData, ftexNamePos - 4)[0]
-            ftexName = bfresData[ftexNamePos: ftexNamePos + ftexNameLen].decode('latin-1')
-            print('                This one is called "' + ftexName + '"')
-
-            # Get the image data
-            imagePos = off + 0xB0 + struct.unpack_from('>I', bfresData, off + 0xB0)[0]
-            imageLen = struct.unpack_from('>I', bfresData, off + 0x24)[0]
-            imageData = bfresData[imagePos : imagePos + imageLen]
-
-            # Get the mipmap data
-            mipPos = off + 0xB4 + struct.unpack_from('>I', bfresData, off + 0xB4)[0]
-            mipLen = struct.unpack_from('>I', bfresData, off + 0x2C)[0]
-            mipData = bfresData[mipPos : mipPos + mipLen]
-
-            # Put it in the raw FTEX cache
-            print('                Putting it in ftexCacheRaw as "' + prefix + '/' + ftexName + '"...')
-            self.ftexCacheRaw[prefix + '/' + ftexName] = (ftexHeader, imageData, mipData)
-
-        print('            FTEX string search done.')
+        print('            FTEX reading done.')
 
 
     def loadFtex(self, key):
@@ -942,25 +909,13 @@ class AssetsClass:
             return self.ftexCacheRendered[key]
 
         # Render it
-        img = self.renderFtex(*self.ftexCacheRaw[key])
+        img = BFRES.texToQImage(self.ftexCacheRaw[key])
 
         # Cache it
         self.ftexCacheRendered[key] = img
 
         # Return it
         return img
-
-
-    def renderFtex(self, ftexHeader, imgData, mipData):
-        """
-        Convert the given FTEX data to a QImage, or return None if it
-        can't be done for whatever reason.
-        """
-        # Replace this with a line or two of code that calls an external
-        # library function that either returns the QImage directly, or
-        # returns width/height/RGBA8 that we can easily make a QImage
-        # out of.
-        return None
 
 
 

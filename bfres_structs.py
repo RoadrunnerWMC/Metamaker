@@ -21,25 +21,31 @@
 # You should have received a copy of the GNU General Public License
 # along with Metamaker.  If not, see <http://www.gnu.org/licenses/>.
 
-# 1/22/16
-# i18n.py
-# Contains i18n code!
+import struct
 
 
-def _(message, *repls):
-    """
-    Performs string translations (i18n).
-    Usage: _(message, replacementCode, replacementText, replacementCode2, replacementText2, ...)
-    """
+class GX2Surface(struct.Struct):
+    def __init__(self):
+        super().__init__('>16I')
 
-    # Perform any replacements
-    for i in range(0, len(repls), 2):
+    def data(self, data, pos):
+        (self.dim,
+         self.width,
+         self.height,
+         self.depth,
+         self.numMips,
+         self.format_,
+         self.aa,
+         self.use,
+         self.imageSize,
+         self.imagePtr,
+         self.mipSize,
+         self.mipPtr,
+         self.tileMode,
+         self.swizzle,
+         self.alignment,
+         self.pitch) = self.unpack_from(data, pos)
 
-        old = '{' + str(repls[i]) + '}'
-        new = str(repls[i+1])
 
-        message = message.replace(old, new)
-        i += 2
-
-    return message
-
+class empty():
+    pass
